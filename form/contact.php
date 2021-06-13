@@ -19,12 +19,13 @@ $mail = new PHPMailer;
 //Set PHPMailer to use SMTP.
 $mail->isSMTP();
 //Set SMTP host name
-$mail->Host = "piyaman.idweb.host";
+// IDWebhost isi dengan piyaman.idweb.host
+$mail->Host = "hostnameemail";
 //Set this to true if SMTP host requires authentication to send email
 $mail->SMTPAuth = true;
 //Provide username and password
-$mail->Username = "admin@zakariawahyu.com";
-$mail->Password = "@bobokaja123";
+$mail->Username = "usernameemail";
+$mail->Password = "passwordemail";
 //If SMTP requires TLS encryption then set it
 $mail->SMTPSecure = "ssl";
 //Set TCP port to connect to
